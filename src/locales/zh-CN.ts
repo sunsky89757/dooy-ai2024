@@ -72,8 +72,8 @@ export default {
     timeout: '超时',
     socks: 'Socks',
     httpsProxy: 'HTTPS Proxy',
-    balance: 'API余额',
-    monthlyUsage: '本月使用量',
+    balance: '剩余额度',
+    monthlyUsage: '已用额度',
   },
   store: {
     siderButton: '提示词商店',
