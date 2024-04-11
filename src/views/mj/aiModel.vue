@@ -37,6 +37,7 @@ model:[
 			'gemini-pro-vision',
             'suno-v3',
 			'tts-1'
+            'kokomi'
 			],
 			maxToken:4096
 }); 
