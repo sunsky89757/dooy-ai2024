@@ -186,7 +186,11 @@ export default {
     "micWhisper": "속삭임 음성 인식",
     "micAsr": "즉시 인식",
     "micRec": "녹음 시작, 말씀하세요! 2초 동안 소리가 없으면 자동으로 중지됩니다.",
-    "micRecEnd": "녹음이 종료되었습니다"
+    "micRecEnd": "녹음이 종료되었습니다",
+
+    subtle: '고화질 2배'
+    ,creative: '고화질 2배. 창의적'
+    ,gpt_gx: 'GPTs는 g-*를 사용합니다'
 
   },
   "mjset": {
@@ -275,7 +279,9 @@ export default {
     ,"no2add": "이미지를 중복해서 추가하지 마십시오."
     ,"add2more": "두 장 이상의 이미지를 추가하십시오."
     ,"no1m": "이미지 크기는 1M를 초과할 수 없습니다."
+    ,"setSync": "Midjourney와 Suno를 동기화하십시오"
     ,"imgExt": "이미지는 jpg, gif, png, jpeg 형식만 지원됩니다."
+    
   },
 	draw: {
 		qualityList: {

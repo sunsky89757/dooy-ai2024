@@ -188,7 +188,11 @@ export default {
         "micWhisper": "Reconnaissance vocale chuchotement",
         "micAsr": "Reconnaissance instantanée",
         "micRec": "Commencer l'enregistrement, s'il vous plaît parlez ! Il s'arrêtera automatiquement s'il n'y a pas de son pendant 2 secondes.",
-        "micRecEnd": "L'enregistrement est terminé"
+        "micRecEnd": "L'enregistrement est terminé",
+
+        subtle: 'Haute définition 2x'
+        ,creative: 'Haute définition 2x. Créatif'
+        ,gpt_gx: 'Les GPT utilisent g-*'
 
     },
     "mjset": {
@@ -277,7 +281,8 @@ export default {
         "no2add": "Ne pas ajouter d'images en double",
         "add2more": "Veuillez ajouter deux images ou plus",
         "no1m": "La taille de l'image ne peut pas dépasser 1 Mo",
-        "imgExt": "Les images ne supportent que les formats jpg, gif, png, jpeg"
+        "imgExt": "Les images ne supportent que les formats jpg, gif, png, jpeg",
+        "setSync": "Synchroniser Midjourney et Suno",
     },
 	draw: {
 		qualityList: {

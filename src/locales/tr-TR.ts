@@ -188,7 +188,11 @@ export default {
         "micWhisper": "Fısıltı konuşma tanıma",
         "micAsr": "Anında tanıma",
         "micRec": "Kayıt başlat, lütfen konuşun! 2 saniye boyunca ses yoksa otomatik olarak duracaktır.",
-        "micRecEnd": "Kayıt sona erdi"
+        "micRecEnd": "Kayıt sona erdi",
+
+        subtle: 'Haute définition 2x'
+        ,creative: 'Haute définition 2x. Créatif'
+        ,gpt_gx: 'Les GPT utilisent g-*'
     },
     "mjset": {
         "server": "Sunucu",
@@ -276,7 +280,8 @@ export default {
         "no2add": "Çift resim ekleme",
         "add2more": "Lütfen iki veya daha fazla resim ekleyin",
         "no1m": "Resim boyutu 1M'yi aşamaz",
-        "imgExt": "Resimler sadece jpg, gif, png, jpeg formatlarını destekler"
+        "imgExt": "Resimler sadece jpg, gif, png, jpeg formatlarını destekler",
+        "setSync": "Midjourney ve Suno'yu senkronize et"
     },
 	draw: {
 		qualityList: {

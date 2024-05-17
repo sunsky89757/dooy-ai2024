@@ -187,7 +187,11 @@ export default {
     "micWhisper": "Nhận diện giọng nói thì thầm",
     "micAsr": "Nhận diện ngay lập tức",
     "micRec": "Bắt đầu ghi âm, vui lòng nói chuyện! Sẽ tự động dừng nếu không có âm thanh trong vòng 2 giây.",
-    "micRecEnd": "Ghi âm đã kết thúc"
+    "micRecEnd": "Ghi âm đã kết thúc",
+
+    subtle: 'Cao độ phân giải cao gấp 2 lần'
+    ,creative: 'Cao độ phân giải cao gấp 2 lần. Sáng tạo'
+    ,gpt_gx: 'GPTs sử dụng g-*'
 
   },
   "mjset": {
@@ -276,8 +280,9 @@ export default {
     "no2add": "Vui lòng không thêm hình ảnh giống nhau",
     "add2more": "Vui lòng thêm ít nhất hai hình ảnh",
     "no1m": "Kích thước hình ảnh không quá 1M",
-    "imgExt": "Chỉ hỗ trợ định dạng jpg, gif, png, jpeg cho hình ảnh"
-    },
+    "imgExt": "Chỉ hỗ trợ định dạng jpg, gif, png, jpeg cho hình ảnh",
+    "setSync": "Đồng bộ hóa Midjourney và Suno"
+  },
 	draw: {
 		qualityList: {
 			general: "General",

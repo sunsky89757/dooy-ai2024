@@ -100,6 +100,8 @@ export interface gptServerType{
     MJ_CDN_WSRV?:boolean //wsrv.nl
     SUNO_SERVER:string
     SUNO_KEY:string
+    IS_SET_SYNC?:boolean
+    GPTS_GX?:boolean
 
 }
 
@@ -113,6 +115,7 @@ let v:gptServerType={
         SUNO_KEY:'',
         SUNO_SERVER:'',
         MJ_CDN_WSRV:false
+        ,IS_SET_SYNC:true
     }
     return v ;
 }
