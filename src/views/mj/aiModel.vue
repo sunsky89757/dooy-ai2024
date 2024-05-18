@@ -32,6 +32,8 @@ model:[
             'claude-3-opus-20240229',
             'claude-3-sonnet-20240229',
             'claude-3-haiku-20240307',
+            'gemini-1.5-pro',
+            'gemini-1.5-flash-latest',
 			'gemini-pro',
             'suno-v3',
             'llama3-70b',
