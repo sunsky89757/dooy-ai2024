@@ -304,8 +304,8 @@ export const subTask= async (data:any, chat:Chat.Chat )=>{
     //if( chat.uuid &&  chat.index) updateChat(chat.uuid,chat.index, chat)
 }
 const backOpt= (d:any, chat:Chat.Chat )=>{
-     if(d.code==1){
-        chat.text='提交成功！';
+     if(d.code==1 || d.code==22){
+        chat.text= d.code==22? d.description :'提交成功！';
         chat.mjID= d.result;
         flechTask( chat )
         chat.loading=true;
@@ -376,10 +376,17 @@ export const canVisionModel= (model:string)=>{
 }
 export const isCanBase64Model=(model:string)=>{
     //gpt-4o
-    return ['gemini-pro-vision','gpt-4o','gpt-4o-2024-05-13','gemini-pro-1.5','gpt-4-turbo','gpt-4-turbo-2024-04-09','gpt-4-vision-preview'].indexOf(model)>-1
+    return ['gemini-pro-vision','gpt-4o','gpt-4o-2024-05-13','gemini-pro-1.5','gpt-4-turbo','gpt-4-turbo-2024-04-09','gpt-4-vision-preview', defaultVisionModel() ].indexOf(model)>-1
 }
 export const canBase64Model= (model:string)=>{
     if( isCanBase64Model(model)) return model; 
+   return defaultVisionModel();
+}
+
+export const defaultVisionModel=()=>{
+    if( homeStore.myData.session && homeStore.myData.session.visionModel ){
+        return  homeStore.myData.session.visionModel
+    }
     return 'gpt-4-vision-preview'
 }
 
