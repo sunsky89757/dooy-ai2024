@@ -2,6 +2,16 @@
 
 #  计划
 
+# 2.17.10 
+- 😄 新增：新增自定义可视化模型 #338 参数 `CUSTOM_VISION_MODELS`
+- 🐞 修复：Bug: 设置SYSTEM_MESSAGE后模型依然对KnowledgeCutOffDate有误解 #370
+- 🐞 修复：Bug: 手机版Safari下地址栏遮挡界面 #371
+
+# 2.17.9 
+- 🐞 修复：自定义模型的tokens配置 #362 #333
+- 🐞 修复：手机版界面下 MENU_DISABLE 没有生效 #363
+- 🐞 修复：绘图的时候自动新建一个对话 #365
+
 # 2.17.8
 - 🐞 修复：MJ在等待队列状态下的处理逻辑
 - 😄 优化：读图由原来的 `gpt-4-vision-preview`  改为 自定义
