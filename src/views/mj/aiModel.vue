@@ -36,6 +36,7 @@ model:[
             'gemini-1.5-flash-latest',
 			'gemini-pro',
             'suno-v3',
+            'suno-v3.5',
             'llama3-70b',
             'kokomi',
             'search-gpts-chat'
