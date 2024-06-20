@@ -39,7 +39,8 @@ model:[
             'suno-v3.5',
             'llama3-70b',
             'kokomi',
-            'search-gpts-chat'
+            'search-gpts-chat',
+            'luma-video'
 			],
 			maxToken:4096
 }); 
