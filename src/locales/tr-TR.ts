@@ -410,7 +410,7 @@ export default {
    }
    ,video:{
     "menu": "Videolar",
-    "menuinfo": "Luam ve diğer video oluşturma",
+    "menuinfo": "Luma ve diğer video oluşturma",
     "descpls": "Video oluşturma açıklaması",
     "lumaabout": "Luma Hakkında",
     "lumaserver": "Luma API adresi",
@@ -423,5 +423,28 @@ export default {
     "submitSuccess": "Başarıyla gönderildi!",
     "process": "Video oluşturuluyor...",
     "repeat": "Yeniden dene"
+    }
+    ,
+    dance:{
+        menu: "Dans",
+        menuinfo: "Viggle ve diğerleri ile dans videoları oluşturun.",
+        character: "Karakter",
+        viggleabout: "Viggle Hakkında",
+        viggleserver: "Viggle API Endpoint",
+        setOpenKeyPlaceholder: "Viggle API anahtarı, isteğe bağlı",
+        info: "Yönergeler:<br>1. Karakter görüntüleri tercihen tam boy fotoğraflar olmalıdır.<br>2. Dans şablonu videoları kişisel videolar olmalı, grup dansları değil.",
+        model: "Model",
+        bgw: "Beyaz Arka Plan",
+        bgg: "Yeşil Arka Plan",
+        bgmoban: "Şablon Arka Planı",
+        bgrole: "Karakter Arka Planı",
+        gring: "Oluşturuluyor...",
+        uprolefirst: "Lütfen önce karakter resmi yükleyin",
+        uprolefail: "Yükleme başarısız oldu",
+        upvideo: "+ Şablon Dans Videosu Yükle",
+        usevideo: "+ Resmi Şablonu Kullan",
+        moban: "Dans Şablonu",
+        moban2: "Şablon Adı",
+        use: "Kullan"
     }
   }

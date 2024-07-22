@@ -417,7 +417,7 @@ export default {
   }
    ,video: {
     menu: "Videos",
-    menuinfo: "Luam and other video generate",
+    menuinfo: "Luma and other video generate",
     descpls: "Video generate description",
     lumaabout: "About Luma",
     lumaserver: "Luma API endpoint",
@@ -429,7 +429,34 @@ export default {
     plsInput: "Please input content!",
     submitSuccess: "Submitted successfully!",
     process: "Video generating...",
-    repeat: "Get again"
+    repeat: "Get again",
+    pending: 'Status: Queued',
+    processing: 'Status: Processing',
+    download: 'Download',
+    extend: 'Extend'
+
+  },
+  dance:{
+    menu: "Dance",
+    menuinfo: "Create dance videos with Viggle and others.",
+    character: "Character",
+    viggleabout: "About Viggle",
+    viggleserver: "Viggle API Endpoint",
+    setOpenKeyPlaceholder: "Viggle API key, optional",
+    info: "Instructions:<br>1. Character images should preferably be full-body photos.<br>2. Dance template videos should be personal videos, not group dances.",
+    model: "Model",
+    bgw: "White Background",
+    bgg: "Green Background",
+    bgmoban: "Original Background",
+    bgrole: "Character Background",
+    gring: "Generating...",
+    uprolefirst: "Please upload character image first",
+    uprolefail: "Upload failed",
+    upvideo: "+ Upload Template Dance Video",
+    usevideo: "+ Use Official Template",
+    moban: "Dance Template",
+    moban2: "Template Name",
+    use: "Use"
   }
 
 
