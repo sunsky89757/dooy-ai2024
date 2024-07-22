@@ -28,7 +28,6 @@ model:[
             'gpt-4-turbo',
             'gpt-4-all',
             'claude-3-opus-20240229',
-            'claude-3-sonnet-20240229',
             'claude-3-haiku-20240307',
             'claude-3-5-sonnet-20240620',
             'gemini-1.5-pro',
@@ -37,7 +36,8 @@ model:[
             'llama3-70b',
             'kokomi',
             'search-gpts-chat',
-            'luma-video'
+            'luma-video',
+            'gpt-4o-mini'
 			],
 			maxToken:4096
 }); 
