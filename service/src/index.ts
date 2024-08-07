@@ -17,7 +17,7 @@ import FormData  from 'form-data'
 import axios from 'axios';
 import AWS  from 'aws-sdk';
 import { v4 as uuidv4} from 'uuid';
-import { viggleProxyFileDo,viggleProxy, lumaProxy } from './myfun'
+import { viggleProxyFileDo,viggleProxy, lumaProxy, runwayProxy } from './myfun'
 
 
 const app = express()
@@ -102,7 +102,10 @@ router.post('/session', async (req, res) => {
     const visionModel= process.env.VISION_MODEL??""
     const systemMessage= process.env.SYSTEM_MESSAGE??""
     const customVisionModel= process.env.CUSTOM_VISION_MODELS??""
-    const isHk= (process.env.OPENAI_API_BASE_URL??"").toLocaleLowerCase().indexOf('-hk')>0
+    let  isHk= (process.env.OPENAI_API_BASE_URL??"").toLocaleLowerCase().indexOf('-hk')>0
+    if(!isHk)  isHk= (process.env.LUMA_SERVER??"").toLocaleLowerCase().indexOf('-hk')>0
+    if(!isHk)  isHk= (process.env.VIGGLE_SERVER??"").toLocaleLowerCase().indexOf('-hk')>0
+    
 
     const data= { disableGpt4,isWsrv,uploadImgSize,theme,isCloseMdPreview,uploadType,
       notify , baiduId, googleId,isHideServer,isUpload, auth: hasAuth
@@ -342,6 +345,8 @@ app.use('/pro/viggle/asset',authV2 ,  upload2.single('file'), viggleProxyFileDo 
 //代理 viggle  
 app.use('/viggle' ,authV2, viggleProxy);
 app.use('/pro/viggle' ,authV2, viggleProxy);
+
+app.use('/runway' ,authV2, runwayProxy  );
 
 
 

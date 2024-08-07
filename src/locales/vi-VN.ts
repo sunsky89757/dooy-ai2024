@@ -357,6 +357,7 @@ export default {
 		},
 		versionList: {
 			mjV6: "MJ V6",
+			mjV61: "MJ V6.1",
 			mjV52: "MJ V5.2",
 			mjV51: "MJ V5.1",
 			nijiV6: "Niji V6",
@@ -424,7 +425,19 @@ export default {
     "plsInput": "Vui lòng nhập nội dung!",
     "submitSuccess": "Đã gửi thành công!",
     "process": "Đang tạo video...",
-    "repeat": "Thử lại"
+    "repeat": "Thử lại",
+
+    "lumainfo": "Giải thích: <ul><li>1. Video demo Pro và relax có liên kết có watermark.</li><li>2. Phiên bản Pro không có watermark cần phải lấy liên kết tải xuống qua nút 'Tải về'.</li><li>3. Các liên kết phiên bản Pro có thời hạn; vui lòng lưu trữ tập tin MP4 vào máy cục bộ kịp thời.</li><li>4. Đối với phiên bản Pro, lưu tập tin MP4 vào máy cục bộ trong vòng 30 phút sau khi tạo ra, vì kênh có thể bị chặn hoặc ngừng hoạt động.</li><li>5. Nếu liên kết tải xuống cho phiên bản Pro không hợp lệ, sẽ cung cấp liên kết video có watermark.</li></ul>",
+    "runwayabout": "Liên quan đến Runway",
+    "runwayserver": "Địa chỉ API Runway",
+    "setOpenKeyPlaceholder2": "Khóa API Runway, không bắt buộc",
+    "endImg": "Hình cuối",
+    "runwayinfo": "Giải thích: <ul><li>1. Các hình ảnh và video của Runway có thời hạn.</li><li>2. Vui lòng lưu trữ tập tin MP4 vào máy cục bộ trong vòng 30 phút sau khi tạo video.</li></ul>",
+    "nosup": "Tạm thời không hỗ trợ",
+    "rwgen2": "Phiên bản: Gen-2, hiệu quả chi phí",
+    "rwgen3": "Phiên bản: Gen-3 Alpha",
+    "repeat2":"Expired.Reget"
+
   }
   ,dance:{
     menu: "Nhảy múa",

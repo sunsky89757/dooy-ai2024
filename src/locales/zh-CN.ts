@@ -369,6 +369,7 @@ export default {
 		},
 		versionList: {
 			mjV6: "MJ V6",
+			mjV61: "MJ V6.1",
 			mjV52: "MJ V5.2",
 			mjV51: "MJ V5.1",
 			nijiV6: "Niji V6",
@@ -438,17 +439,24 @@ export default {
     submitSuccess:'已提交成功！',
     process:'视频生成中...',
     repeat:'重新获取',
-
     pending:'状态:队列中',
-    processing:'状态:队列中',
+    processing:'状态:生产中',
     failed:'状态:生成失败！',
     download:'下载',
     extend:'延展',
 
+    lumainfo:'说明：<ul><li>1.pro与relax演示视频都是有水印的链接</li><li>2.pro无水印版本需要通过“下载按钮”得到下载链接</li><li>3.pro得到的链接有时限；请及时保存mp4文件到本地</li><li>4.pro请在生成后的30分钟内；将mp4保存到本地，渠道号也可能被封或者下线</li> <li>5.pro当下载链接无效时会给出带水印的视频链接</li></ul>',
     runwayabout:'Runway 相关',
     runwayserver:'Runway 接口地址',
     setOpenKeyPlaceholder2:'Runway API 的key, 可不填',
     endImg:'尾帧图',
+    runwayinfo:'说明：<ul><li>1. Runway 图片与视频都有有效期</li>  <li>2. 请在生成视频后30分钟内将mp4保存到本地</li>  <li>3. 过期重新获取，可能存在账号下线而获取失败</li></ul>',
+    nosup:'暂不支持',
+    rwgen2:'版本: Gen-2, 价格实惠',
+    rwgen3:'版本: Gen-3 Alpha',
+    rwgen3fast:'版本: Gen-3 Alpha Fast',
+
+    repeat2:'过期.重新获取',
 
   }
   ,dance:{
